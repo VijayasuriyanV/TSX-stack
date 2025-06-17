@@ -1,6 +1,6 @@
 {
   "name": "tsx-stackz",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "⚡ Scaffold a modern React + TypeScript app with your choice of router, state, query, and styling stack",
   "license": "MIT",
   "author": "Vijaya Suriyan v",
