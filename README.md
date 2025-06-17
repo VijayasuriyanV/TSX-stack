@@ -1,55 +1,53 @@
+# 🚀 TSX-stack
 
-# 🚀 TSX-stackz
-
-**TSX-stackz** is a powerful interactive CLI tool that scaffolds modern **React + TypeScript + Vite** projects with fully configurable options for routing, styling, state management, query handling, and optional dev tools — all using TypeScript and best practices out-of-the-box.
-
+**TSX-stack** is a powerful interactive CLI tool that scaffolds modern **React + TypeScript + Vite** projects with fully configurable options for routing, styling, state management, query handling, and optional dev tools — all using TypeScript and best practices out-of-the-box.
 
 ## 📚 Table of Contents
 
-* [Introduction](#-introduction)
-* [Features](#-features)
-* [Installation](#-installation)
-* [Usage](#-usage)
-* [Configuration Options](#-configuration-options)
-* [Generated Structure](#-generated-structure)
-* [Examples](#-examples)
-* [Dependencies](#-dependencies)
-* [Troubleshooting](#-troubleshooting)
-* [Contributors](#-contributors)
-* [License](#-license)
+- [Introduction](#-introduction)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration Options](#-configuration-options)
+- [Generated Structure](#-generated-structure)
+- [Examples](#-examples)
+- [Dependencies](#-dependencies)
+- [Troubleshooting](#-troubleshooting)
+- [Contributors](#-contributors)
+- [License](#-license)
 
 ---
 
 ## 📖 Introduction
 
-**TSX-stackz** eliminates boilerplate by guiding you through a series of prompts to generate a fully working React + Vite + TypeScript app. It supports major ecosystem libraries and frameworks, making it a perfect tool for both prototyping and production-ready applications.
+**TSX-stack** eliminates boilerplate by guiding you through a series of prompts to generate a fully working React + Vite + TypeScript app. It supports major ecosystem libraries and frameworks, making it a perfect tool for both prototyping and production-ready applications.
 
 ---
 
 ## ✨ Features
 
-* ✅ Interactive CLI 
-* ⚡ Uses **Vite** for fast builds
-* 🎨 Styling options: Tailwind CSS, Material UI, or none
-* 🌐 Router options: TanStack Router or React Router
-* 🔌 Plug-and-play with state managers: Redux Toolkit, Zustand, or Jotai
-* 🔍 Query management via TanStack Query
-* 🧪 DevTools support for Tanstack routers and Tanstack queries
-* 🔔 Optional integration of React Toastify
-* 🧩 Automatically generates Navbar, Footer, Home, and About pages, along with router setup based on user-selected styling
+- ✅ Interactive CLI
+- ⚡ Uses **Vite** for fast builds
+- 🎨 Styling options: Tailwind CSS, Material UI, or none
+- 🌐 Router options: TanStack Router or React Router
+- 🔌 Plug-and-play with state managers: Redux Toolkit, Zustand, or Jotai
+- 🔍 Query management via TanStack Query
+- 🧪 DevTools support for Tanstack routers and Tanstack queries
+- 🔔 Optional integration of React Toastify
+- 🧩 Automatically generates Navbar, Footer, Home, and About pages, along with router setup based on user-selected styling
 
 ---
 
 ## ⚙️ Installation
 
 ```bash
-npm install -g tsx-stackz
+npm install -g TSX-stack
 ```
 
 Or use directly with `npx`:
 
 ```bash
-npx tsx-stackz
+npx TSX-stack
 ```
 
 ---
@@ -59,16 +57,16 @@ npx tsx-stackz
 Launch the interactive CLI:
 
 ```bash
-npx tsx-stackz
+npx TSX-stack
 ```
 
 Follow the prompts to:
 
-* Name your project
-* Choose styling framework
-* Select routing library
-* Add state/query libraries
-* Enable optional devtools/toast notifications
+- Name your project
+- Choose styling framework
+- Select routing library
+- Add state/query libraries
+- Enable optional devtools/toast notifications
 
 Once generated:
 
@@ -127,18 +125,18 @@ your-app/
 ### Example 1: Tailwind + TanStack Router + Zustand
 
 ```bash
-npx tsx-stackz
+npx TSX-stack
 ```
 
-*Choose Tailwind, TanStack Router, Zustand, and enable devtools when prompted.*
+_Choose Tailwind, TanStack Router, Zustand, and enable devtools when prompted._
 
 ### Example 2: MUI + React Router + Redux Toolkit + Toastify
 
 ```bash
-npx tsx-stackz
+npx TSX-stack
 ```
 
-*Select Material UI, React Router, Redux, and Toastify during prompts.*
+_Select Material UI, React Router, Redux, and Toastify during prompts._
 
 ---
 
@@ -146,12 +144,12 @@ npx tsx-stackz
 
 Depending on selected options, these libraries may be installed:
 
-* **Core:** `react`, `react-dom`, `typescript`, `vite`, `@vitejs/plugin-react`
-* **Styling:** `tailwindcss`, `@tailwindcss/vite`, `@mui/material`, `@emotion/react`
-* **Routing:** `@tanstack/react-router`, `@tanstack/router-devtools`, `react-router-dom`
-* **State Management:** `@reduxjs/toolkit`, `react-redux`, `zustand`, `jotai`
-* **Query:** `@tanstack/react-query`, `@tanstack/react-query-devtools`
-* **UI Enhancements:** `react-toastify`
+- **Core:** `react`, `react-dom`, `typescript`, `vite`, `@vitejs/plugin-react`
+- **Styling:** `tailwindcss`, `@tailwindcss/vite`, `@mui/material`, `@emotion/react`
+- **Routing:** `@tanstack/react-router`, `@tanstack/router-devtools`, `react-router-dom`
+- **State Management:** `@reduxjs/toolkit`, `react-redux`, `zustand`, `jotai`
+- **Query:** `@tanstack/react-query`, `@tanstack/react-query-devtools`
+- **UI Enhancements:** `react-toastify`
 
 ---
 
@@ -167,9 +165,9 @@ Depending on selected options, these libraries may be installed:
 
 ## 👨‍💻 Contributors
 
-* **Vijaya Suriyan V** — Creator & Maintainer
+- **Vijaya Suriyan V** — Creator & Maintainer
 
-> PRs welcome! Help improve `tsx-stackz` by submitting ideas, fixes, or enhancements.
+> PRs welcome! Help improve `TSX-stack` by submitting ideas, fixes, or enhancements.
 
 ---
 
@@ -179,4 +177,3 @@ MIT © Vijaya Suriyan V
 Feel free to use, modify, and distribute as needed.
 
 ---
-

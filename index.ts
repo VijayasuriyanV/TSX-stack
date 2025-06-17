@@ -9,7 +9,7 @@ import {scaffoldProject, ScaffoldConfig} from "./scaffold.js";
 const args = minimist(process.argv.slice(2));
 const hasArgs = Object.keys(args).length > 1;
 
-console.log(chalk.cyan("\n🚀 Welcome to TSX-stackz"));
+console.log(chalk.cyan("\n🚀 Welcome to TSX-stack"));
 
 let config: Partial<ScaffoldConfig> = {};
 
