@@ -19,7 +19,9 @@ jobs:
           registry-url: "https://registry.npmjs.org/"
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install --save-dev @types/fs-extra
 
       - name: Build
         run: npm run build
