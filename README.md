@@ -167,7 +167,7 @@ Depending on selected options, these libraries may be installed:
 
 ## 👨‍💻 Contributors
 
-* **\Vijaya Suriyan V** — Creator & Maintainer
+* **Vijaya Suriyan V** — Creator & Maintainer
 
 > PRs welcome! Help improve `tsx-stackz` by submitting ideas, fixes, or enhancements.
 
