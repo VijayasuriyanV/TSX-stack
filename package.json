@@ -1,0 +1,57 @@
+{
+  "name": "tsx-stackz",
+  "version": "1.0.0",
+  "description": "⚡ Scaffold a modern React + TypeScript app with your choice of router, state, query, and styling stack",
+  "license": "MIT",
+  "author": "Vijaya Suriyan v",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "create-my-stack": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx index.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "cli",
+    "scaffold",
+    "starter",
+    "tanstack-router",
+    "react-router",
+    "redux",
+    "zustand",
+    "jotai",
+    "tanstack-query",
+    "react-query",
+    "tailwind",
+    "mui",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VijayasuriyanV/TSX-stackz.git"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "execa": "^9.6.0",
+    "fs-extra": "^11.3.0",
+    "minimist": "^1.2.8",
+    "ora": "^8.2.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.11.30",
+    "@types/prompts": "^2.4.5",
+    "typescript": "^5.8.3"
+  }
+}
